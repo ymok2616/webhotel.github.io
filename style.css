@@ -1,0 +1,407 @@
+@charset "utf-8";
+/* CSS Document */
+/* 共通部分
+-------------------------------*/
+
+html {
+	font-size: 100%;
+}
+
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	line-height: 1.7;
+	color: #04073D;
+}
+
+a {
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+.big-bg {
+	padding-top: 150px;
+}
+
+#home {
+	background-image: url("imagge4.jpeg");
+	min-height: 100vh;
+
+}
+
+
+/* HEADER
+-------------------------------*/
+header {
+	position: fixed;
+	width: 100%;
+	top:0;
+	z-index: 10000;
+
+
+}
+
+
+.logo {
+	width: 150px;
+	margin-top: 14px;
+}
+
+.main-nav {
+	display: flex;
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	margin-top: 34px;
+	list-style: none;
+
+}
+
+.main-nav li {
+	margin-left: 34px;
+}
+
+.main-nav a {
+	color:#04073D;
+}
+
+.main-nav a:hover {
+	color:#fff;
+}
+
+.page-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrapper {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 4%;
+
+}
+
+
+
+/* home-content
+-------------------------------*/
+
+.home-content {
+	text-align: center;
+	margin-top: 10%;
+}
+
+.home-content p {
+	font-size: 1.125rem;
+	margin: 10px 0 42px;
+
+}
+
+/* h2
+-------------------------------*/
+.page-title {
+	font-size: 3rem;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.page-title-news {
+	text-align: center;
+
+
+}
+
+
+/* ボタン
+-------------------------------*/
+.button {
+	font-size: 1.375rem;
+	color:#967B0C;
+	border-radius: 5px;
+	padding: 18px 20px;
+	justify-content: flex-start;
+}
+
+.button:hover{
+	color: #fff;
+
+}
+
+/* 背景
+-------------------------------*/
+.big-bg {
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+#home {
+	background-image: url("imagge4.jpeg");
+	min-height: 100vh;
+	background-blend-mode: overlay;
+}
+
+
+
+/* image
+-------------------------------*/
+
+.program-image{
+	width:70%;
+}
+
+.program-text{
+	width:50%;
+	padding:30px;
+}
+
+.program-image img {
+	width:70%;
+	padding: 30px 20px;
+
+}
+
+.program {
+	display: flex;
+	align-items: center;
+	width: 70%;
+	margin:0 auto;
+
+
+}
+
+
+
+.page-title{
+	font-size: 32px;
+	font-weight: bold;
+
+}
+
+.program-text-cpntents {
+	color:#3923C4;
+
+}
+
+.content-image{
+	display: flex;
+	justify-content: space-around;
+	width: 60%;
+	margin:0 auto;
+
+}
+
+
+
+/* ewsavwe
+-------------------------------*/
+.resavetion {
+	background-color: #98894C;
+	background-repeat: none;
+	margin: 0px 50px 100px 50px;
+}
+
+
+
+
+/* news
+-------------------------------*/
+.news{
+	width:70%;
+	margin:0 auto;
+
+}
+
+.news ul {
+	list-style: none;
+
+}
+
+.news ul li {
+	display: flex;
+	border-bottom: 1px solid #AFA9A9;
+	padding:10px 10px;
+	align-items: center;
+}
+
+.news ul li div {
+	line-height: 15px;
+	font-size: 13px;
+	font-weight:normal;
+	margin: 0 10px;
+}
+
+.news-text a {
+	text-decoration: none;
+	color:#090935;
+}
+.news-date {
+	color:#090935;
+}
+
+.button-news {
+	align-items:center;
+}
+
+
+.label {
+	padding: 10px 10px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.label-notice {
+	background-color:#967B0C;
+	color: #fff;
+
+}
+
+.label-reqruite {
+	background-color: #967B0C;
+	color: #fff;
+
+}
+/* ホテルの説明
+-------------------------------*/
+.text-about {
+	align-items: center;
+
+}
+
+/* ホテルのyoyaku
+-------------------------------*/
+
+.button-re {
+     padding: 10px 10px;
+	 text-align: center;
+	 border-radius: 10px;
+	 background-color: #04073D;
+	 color: #fff;
+	 margin-left: 100px;
+
+}
+
+.button-re:hover{
+  opacity: 0.5;
+}
+
+
+
+
+
+/*--map --*/
+.map wrapper {
+	display:flex;
+	justify-content: space-around;
+}
+
+.location-info {
+	width: 40%;
+	padding: 1% 0;
+
+}
+
+.location-info p {
+	padding:20px 10px;
+
+}
+
+.location-map {
+	width: 74%;
+
+}
+
+iframe {
+	width:100%;
+	padding-bottom: 60px;
+
+}
+
+
+.footer {
+	background-color: #04073D;
+	color: #fff;
+}
+
+
+/* ----footer ----*/
+ footer {
+	 text-align: center;
+	 background-color: #04073D;
+	 padding: 26px 0 ;
+	 margin-top: 50px ;
+ }
+
+footer p {
+	color: #fff;
+	font-size: 0.8rem;
+}
+
+
+
+/* ----　jquary ----*/
+#pageTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+
+#pageTop i {
+  padding-top: 10px
+}
+
+
+
+#pageTop a {
+  display: block;
+  z-index: 999;
+  padding: 7px 0 0 0;
+  border-radius: 30px;
+  width: 45px;
+  height: 45px;
+  background-color: #04073D;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+
+#pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+
+.about wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.news-img {
+	position: relative;
+}
+
+.img5 {
+	position: absolute;
+	top: 20px;
+	right: 50px;
+	z-index: 2;
+
+}
+
+.img7 {
+	position: flex;
+	top: 150px;
+	left: 200px;
+	width: 640px;
+	height: 270px;
+    z-index: 1;
+}
+
+
+
